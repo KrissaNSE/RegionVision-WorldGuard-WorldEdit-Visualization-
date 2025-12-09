@@ -1,0 +1,42 @@
+# =============================================================
+# RegionVision Configuration
+# Compatible with Minecraft 1.21
+# =============================================================
+
+visualizer:
+  # Duration (in seconds) that STATIC region particles remain visible
+  # Note: WorldEdit selections are now persistent until cleared
+  duration: 15
+
+  # Distance between individual particles along the lines
+  # 0.25 = Very dense (solid line look)
+  # 0.50 = Balanced
+  # 1.00 = Sparse (dots)
+  particle-density: 0.25
+
+  # Maximum radius for the /rv near command to prevent server freezing
+  max-near-radius: 100
+
+colors:
+  # RGB values for particles
+  allowed:
+    r: 0
+    g: 255
+    b: 0
+  denied:
+    r: 255
+    g: 0
+    b: 0
+  selection:
+    r: 200
+    g: 0
+    b: 255  # Bright Purple
+
+messages:
+  prefix: "<gray>[<gradient:#00ff00:#00aa00>RegionVision</gradient>] <reset>"
+  no-permission: "<red>You do not have permission to use this."
+  region-shown: "<green>Visualizing region: <white>%region%"
+  no-region-found: "<yellow>No region found at this location."
+  selection-enabled: "<green>Auto-selection visualization enabled."
+  selection-disabled: "<red>Auto-selection visualization disabled."
+  reloaded: "<green>Configuration reloaded."

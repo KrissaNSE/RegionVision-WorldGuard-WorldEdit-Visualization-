@@ -1,0 +1,10 @@
+com\regionvision\utils\GeometryUtil$CuboidBounds.class
+com\regionvision\managers\PermanentRegionManager$RegionSettings.class
+com\regionvision\managers\VisualizerManager.class
+com\regionvision\listeners\RegionEnterListener.class
+com\regionvision\managers\CommandManager.class
+com\regionvision\utils\GeometryUtil.class
+com\regionvision\utils\WorldGuardUtil.class
+com\regionvision\managers\PermanentRegionManager.class
+com\regionvision\RegionVisionPlugin.class
+com\regionvision\listeners\WorldEditListener.class

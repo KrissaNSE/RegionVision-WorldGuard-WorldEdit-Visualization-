@@ -1,0 +1,30 @@
+name: RegionVision
+version: 1.0.0
+main: com.regionvision.RegionVisionPlugin
+api-version: 1.21
+authors: [Gemini]
+softdepend: [WorldGuard, WorldEdit]
+commands:
+  regionvision:
+    description: Main command for RegionVision
+    aliases: [rv, wgv]
+    usage: /rv help
+permissions:
+  regionvision.use:
+    description: Allow basic visualization
+    default: true
+  regionvision.toggle:
+    description: Allow toggling auto-selection view
+    default: true
+  regionvision.info:
+    description: Allow viewing region info
+    default: op
+  regionvision.view.remote:
+    description: Allow viewing remote regions
+    default: op
+  regionvision.near:
+    description: Allow searching near regions
+    default: op
+  regionvision.admin:
+    description: Admin reload commands
+    default: op
